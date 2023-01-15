@@ -13,7 +13,9 @@ class ClassComponent extends Component {
 		return (
 			<div className="Component-container" style={{ backgroundColor: "#d27fd2" }}>
 				<h1>
-					This is Created using <span style={style.spanText}>Class</span> Component!
+					This is Created using
+					<br />
+					<span style={style.spanText}>Class</span> Component!
 				</h1>
 				<div>This is styled using external CSS.</div>
 				<div style={{ color: "blue" }}>This is styled using Inline CSS.</div>
